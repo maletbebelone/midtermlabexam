@@ -1,0 +1,37 @@
+<html>
+<head>
+	<title> MidtermExam</title>
+</head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<body>
+<table border="3">
+	<tr>
+	<td>
+	<div id="text">
+	<form id="calcu" align="center" width="30">
+
+		<input type="text" name='answer'>
+		<br>
+		<input type='button' value="1" onclick="calcu.answer.value+='1'"/>
+		<input type='button' value="2" onclick="calcu.answer.value+='2'"/>
+		<input type='button' value="3" onclick="calcu.answer.value+='3'"/>
+		<input type='button' value="+" onclick="calcu.answer.value+='+'"/>
+		<br>
+		<input type='button' value="4" onclick="calcu.answer.value+='4'"/>
+		<input type='button' value="5" onclick="calcu.answer.value+='5'"/>
+		<input type='button' value="6" onclick="calcu.answer.value+='6'"/>
+		<input type='button' value="-" onclick="calcu.answer.value+='-'"/>
+		<br>
+		<input type='button' value="7" onclick="calcu.answer.value+='7'"/>
+		<input type='button' value="8" onclick="calcu.answer.value+='8'"/>
+		<input type='button' value="9" onclick="calcu.answer.value+='9'"/>
+		<input type='button' value="*" onclick="calcu.answer.value+='*'"/>
+		<br>
+		<input type='button' value="0" onclick="calcu.answer.value+='0'"/>
+		<input type='button' value="." onclick="calcu.answer.value+='.'"/>
+		<input type='button' value="/" onclick="calcu.answer.value+='/'"/>
+		<input type='button' value="=" onclick="calcu.answer.value=eval(calcu.answer.value)"/>
+	</form>
+</table>
+</body>
+</html>
